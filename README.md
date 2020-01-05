@@ -24,10 +24,10 @@ Il faut ensuite créer un dossier "Reinforcement" dans son drive et y ajouter le
 Il faudra alors modifier dans les cellules les noms des modèles pré-écrit par exemple "XX.data" par le nom du modèle que l'on souhaite charger, les lignes concernées sont indiquées avec un commentaire "[LOAD MODEL]"
 
 ## Google Colab sans Google Drive
-Dans ce cas il ne faut pas executer la première cellule et décommenter les cellules indiqué avec le commentaire "[NO GOOGLE DRIVE]" elle feront apparaitre un input HTML permettant d'uploader les modèles à la main
+Dans ce cas il ne faut pas executer la première cellule et décommenter les cellules indiquées avec le commentaire "[NO GOOGLE DRIVE]" elles feront apparaitre un input HTML permettant d'uploader les modèles à la main
 
 ## Jupyter Notebook
-Dans le cas ou Google Colab n'est pas utilisable il faudra installer toutes les dépendances à la main en utilisant la commande :
+Dans le cas où Google Colab n'est pas utilisable, il faudra installer toutes les dépendances à la main en utilisant la commande :
 
 ``` pip3 install -r requirements.txt ```  
 
@@ -35,7 +35,7 @@ puis démarrer un notebook jupyter dans le dossier où se trouve le fichier "TP_
 
 ``` jupyter notebook ```
 
-[Plain Python]
+## Plain Python
 Pour l'utiliser il faut simplement lancer le fichier TP_reinforcement.py
 
 ``` python3 TP_Reinforcement.py ```
