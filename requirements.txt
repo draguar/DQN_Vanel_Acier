@@ -94,7 +94,7 @@ python-socketio==4.4.0
 pytube==9.5.1
 pytz==2019.1
 PyWavelets==1.0.3
-PyYAML==3.13
+PyYAML==5.1
 pyzmq==18.1.1
 requests==2.22.0
 riotwatcher==2.7.1
